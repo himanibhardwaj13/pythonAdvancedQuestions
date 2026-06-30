@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 # Strategy Pattern: Swap the algorithms interchangable
-class EngeryStrategy:
+class EngeryStrategy(ABC):
+    @abstractmethod
     def start(self):
         pass
 class NormalMode(EngeryStrategy):
