@@ -1,4 +1,4 @@
-from loadPlugin import LoadPlugin
+from loadPlugin import LoadPlugins
 
-plugin = load_plugin('light')
+plugin = LoadPlugins.load_plugin('light')
 plugin.run()
